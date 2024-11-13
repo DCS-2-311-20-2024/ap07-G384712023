@@ -130,7 +130,7 @@ function init() {
           })
         );
         building.position.set(
-          (w + gap) * (c - 2.5)  ,
+          (w + gap) * (c - (n - 1) / 2)  ,
           0,
           (d + gap) * (r - (n - 1) / 2)
         )
